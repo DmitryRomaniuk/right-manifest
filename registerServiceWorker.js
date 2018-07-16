@@ -13,7 +13,7 @@ function register() {
   if ('serviceWorker' in navigator) {
 
     window.addEventListener('load', () => {
-      const swUrl = `https://dmitryromaniuk.github.io/right-manifest/service-worker.js`;
+      const swUrl = `https://dmitryromaniuk.github.io/right-manifest/registerServiceWorker.js`;
       registerValidSW(swUrl);
     });
   }
